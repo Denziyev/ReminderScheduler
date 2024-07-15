@@ -1,0 +1,5 @@
+2024-07-13 19:49:17.579 +04:00 [INF] Now listening on: https://localhost:7286
+2024-07-13 19:49:17.642 +04:00 [INF] Now listening on: http://localhost:5244
+2024-07-13 19:49:17.649 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-13 19:49:17.652 +04:00 [INF] Hosting environment: Development
+2024-07-13 19:49:17.655 +04:00 [INF] Content root path: C:\Users\VO\Desktop\ReminderScheduler.Web\ReminderScheduler.Web

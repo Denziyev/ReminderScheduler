@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51737FF2-7415-4502-BBED-F7C62B6186CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderScheduler.Application", "src\ReminderScheduler.Application\ReminderScheduler.Application.csproj", "{08C9E869-77AE-4CB7-8CA9-E53E6ECAD5E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderScheduler.Domain", "src\ReminderScheduler.Domain\ReminderScheduler.Domain.csproj", "{32C32458-E8C3-4FEF-980F-E70731E1A0F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderScheduler.Infrastructure", "src\ReminderScheduler.Infrastructure\ReminderScheduler.Infrastructure.csproj", "{38C2503E-5813-4208-99DC-1BF846CFB67C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReminderScheduler.Web", "src\ReminderScheduler.Web\ReminderScheduler.Web.csproj", "{CD29BB1E-37CC-4075-9804-51F760F17D48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{823DE736-3C1D-4915-BF1B-0E703F1BDE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReminderScheduler.UnitTests", "ReminderScheduler.UnitTests\ReminderScheduler.UnitTests.csproj", "{B49881B3-29C1-44A5-890E-ECD09D7B19A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08C9E869-77AE-4CB7-8CA9-E53E6ECAD5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C9E869-77AE-4CB7-8CA9-E53E6ECAD5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C9E869-77AE-4CB7-8CA9-E53E6ECAD5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C9E869-77AE-4CB7-8CA9-E53E6ECAD5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C32458-E8C3-4FEF-980F-E70731E1A0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C32458-E8C3-4FEF-980F-E70731E1A0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C32458-E8C3-4FEF-980F-E70731E1A0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C32458-E8C3-4FEF-980F-E70731E1A0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C2503E-5813-4208-99DC-1BF846CFB67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C2503E-5813-4208-99DC-1BF846CFB67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C2503E-5813-4208-99DC-1BF846CFB67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C2503E-5813-4208-99DC-1BF846CFB67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD29BB1E-37CC-4075-9804-51F760F17D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD29BB1E-37CC-4075-9804-51F760F17D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD29BB1E-37CC-4075-9804-51F760F17D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD29BB1E-37CC-4075-9804-51F760F17D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49881B3-29C1-44A5-890E-ECD09D7B19A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49881B3-29C1-44A5-890E-ECD09D7B19A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49881B3-29C1-44A5-890E-ECD09D7B19A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49881B3-29C1-44A5-890E-ECD09D7B19A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08C9E869-77AE-4CB7-8CA9-E53E6ECAD5E2} = {51737FF2-7415-4502-BBED-F7C62B6186CC}
+		{32C32458-E8C3-4FEF-980F-E70731E1A0F7} = {51737FF2-7415-4502-BBED-F7C62B6186CC}
+		{38C2503E-5813-4208-99DC-1BF846CFB67C} = {51737FF2-7415-4502-BBED-F7C62B6186CC}
+		{CD29BB1E-37CC-4075-9804-51F760F17D48} = {51737FF2-7415-4502-BBED-F7C62B6186CC}
+		{B49881B3-29C1-44A5-890E-ECD09D7B19A1} = {823DE736-3C1D-4915-BF1B-0E703F1BDE7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B5515D2-ED72-43C8-A996-EBC511CC3979}
+	EndGlobalSection
+EndGlobal
